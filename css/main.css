@@ -1,0 +1,208 @@
+
+body{
+    background: linear-gradient(#0b7080, #0ba376);
+    background-repeat: no-repeat;
+    background-size: cover ; 
+    background-attachment: fixed;
+}
+.fontSofia{
+  font-family:"Sofia",sans-serif ;
+}
+.fontAcme{
+    font-family:"Acme", monospace;
+    word-spacing: 4px;
+}
+.borderRaduis1{
+    border-radius: 50px 0px 0px 50px;
+}
+.borderRaduis2{
+    border-radius: 0px 50px 50px 0px;
+}
+.boderColor{
+    border: 2px solid rgb(77, 77, 77);
+}
+.hover{
+color: black;
+}
+.hover:hover{
+    cursor: pointer;
+    font-size: larger;
+    color: goldenrod;
+}
+.content{
+    height: 100%;
+}
+#box {
+    position: relative;
+    height: 79%;
+    overflow-y: scroll;
+    margin:  0px 10px ;
+    padding: 0px 10px;
+    transition: all 1s;
+    text-align: center;
+}
+.question{
+    background-color: rgb(255, 255, 255);
+            width: 45%;
+            text-align: left;
+            padding: 4px 20px;
+            margin: 10px;
+            margin-right: 0px;
+            margin-left: 44%;
+            border-radius: 30px;
+            border: 2px solid rgb(77, 77, 77);
+            display: inline-block;
+            width: 50%;
+}
+.answer{
+    background-color: rgb(255, 255, 255);
+    min-width: 45%;
+    text-align: left;
+    padding: 4px 20px;
+    margin: 10px;
+    margin-right: 45%;
+    margin-left: 0;
+    border-radius: 30px;
+    border: 2px solid rgb(77, 77, 77);
+    display: inline-block;
+    width: 50%;
+}
+#image_open{
+    display: none;
+}
+#suggested  {
+    position: relative;
+    background-color: rgba(131, 131, 131, 0.637);
+    overflow: hidden;
+    width: 100%;
+    display: none;
+    height: 65px;
+    opacity: 1;
+    bottom: 0%;
+    border-radius: 20px;
+    font-size: 1.1em;
+    padding: 1% 0%;
+    visibility: visible;
+    transition: all 1s;
+}
+#suggested div div{
+    background-color: rgb(255, 255, 255);
+    min-width: 5%;
+    text-align: center;
+    padding: 3px 20px;
+    margin:10px 15px;
+    left: 0%;
+    margin-left: 0;
+    border-radius: 15px;
+    border: 2px solid rgb(77, 77, 77);
+    display: inline-flex;
+    transition: all 1s;
+
+}
+#suggested div div:hover{
+    cursor: pointer;
+    background-color: rgb(0, 151, 8);
+    color: white;
+}
+.close_suggested{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px;
+}
+.close_suggested:hover{
+  cursor: pointer;
+  color: rgb(155, 0, 0);
+}
+#open_suggested{
+    position: absolute;
+    bottom: 0%;
+    right: 40%;
+    color: rgb(255, 255, 255);
+    padding: 2px 10px;
+    font-size: 18px;
+    background:#0c9f74;
+    border-radius: 10px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 1s;
+}
+#open_suggested:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: #08694c;
+}
+#LeftSection{
+    display: block;
+    transition: all 1s;
+    position: relative;
+}
+#showicon{
+    display: none;
+    float: left;
+}
+#rightSection{
+    display: block;
+    transition: all 1s;
+}
+#showicon2{
+    display: none;
+    float: left;
+}
+.reserved{
+    position: absolute;
+    bottom: 0;
+    margin-left: 25%;
+}
+
+@media (min-width: 58px) and (max-width: 991px)
+{
+    .h5{
+        font-size: 14px;
+    }
+    .h3{
+        font-size: 16px;
+    }
+    .h2{
+        font-size: 18px;
+    }
+    #LeftSection{
+        display: none;
+        border-radius:50px;
+        z-index: 4;
+    }
+    #rightSection{
+        border-radius:50px;
+    }
+    #showicon{
+        display: inline;
+    }
+    #showicon2{
+        display: inline;
+    }
+    .reserved{
+        margin-left: 35%;
+    }
+    .hover{
+        font-size: smaller;
+    }
+}
+@media (min-width: 1002px) and (max-width: 1151px){
+    #rightSection{
+        border-radius:0px 50px 50px 0px;
+        display: block;
+    }
+    #LeftSection{
+        border-radius:50px 0px 0px 50px;
+        display: block;
+    }
+}
+#checkOnline{
+    position: absolute;
+    right: 5%;
+}
+#inp{
+    width: 70%;
+}

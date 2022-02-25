@@ -1,0 +1,129 @@
+<!-- 
+    19/3/2021 3:30h make css basic and make the js response by writing
+    20/3/2021 10:30-12:30pm 2 hours put images and add record code by speaking
+    21/3/2021 2:45 hours add input and css and sounds
+    15/5/2021 11:00pm - 12:15am = 1:15 hour add speech sound js
+    19/5/2021 10:10am - 12:30pm add if is connent with internet and add some new answers + 
+              2:00pm - 4:00pm calculate and music +
+              4:00pm - 4:30pm + 10:20pm - 12:05am suggested sentence style and js = 7.30 hours 
+    28/5/2021 5:15 - 7:30pm = 2h make an new style for page
+    29/5/2021 9:35 - 12:40pm = 3h complete the style 
+    19/6/2021 10:45- 11:45 = 1h bootstrap
+    25/2/2022 9:00 - 12:00 + 2:45 - 6:30 + 8-9 = 7.30h bootstrap new design
+
+    28 Hours of works Made By Abdullah Salhab 😉✌
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- Website Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><!-- bootstrap css -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><!-- jquery for bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><!-- for bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script><!-- bootstrap js -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!-- when scroll show things -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script><!-- when scroll show things -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"><!-- for bootstrap -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'> <!-- google font -->  
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <title>Salhab Assistant</title>
+
+</head>
+<body>
+    
+    <div class="container text-center " style="margin: 2% auto;">
+        <div class="row " >
+            <div class="col-lg-4 col-md-12 col-sm-12 bg-dark shadow text-white borderRaduis1 p-4 boderColor " style="height: 700px;" id="LeftSection">
+                <button  onclick="showRight()" id="showicon2" class="navbar-toggler " ><span class="dark-blue-text"><i class="fas fa-angle-double-left"></i></span></button>
+                <div class="row p-4"></div>
+                <div class="w-100">
+                    <img src="images/icon.png" class="w-50" alt="">
+                </div>
+                <div class="h2 fontAcme mt-4" >
+                    <label >Salhab Assistant </label>
+                </div>
+                <div class="pt-4 h5 fontAcme " style="color: rgb(180, 180, 180);" >
+                    Salhab Assistant interact with you and do a variety of tasks, 
+                    such as calculate math operation or playing music or open image from device or
+                    search in google also you can see if you are connected with internet or not etc.. .
+                </div>
+                <div class=" d-inline h3">
+                    <div class="row p-4"></div>
+                    <div class="row p-4"></div>
+                    <a href="https://github.com/Abdullah-Salhab" target="_blank"><i class="fa-brands fa-github m-2 text-light"></i></a>
+                    <a href="https://abdullah-salhab.github.io/My-Resume/" target="_blank"><i class="fas fa-address-card m-2 text-light"></i></a>
+                    <a href="https://www.linkedin.com/in/abdullah-salhab" target="_blank"><i class="fab fa-linkedin m-2 text-light"></i></a>
+                    <a href="tel:+962797638085" target="_blank"><i class="fas fa-phone m-2 text-light"></i></a>
+                    <a href="mailto:abdullahsalhab18@gmail.com" target="_blank"><i class="fas fa-envelope m-2 text-light"></i></a>
+                </div>
+                <div class="small pb-2 pt-4 text-muted reserved ">
+                    © 2022 All rights reserved.
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 bg-dark borderRaduis2 shadow p-4 fontAcme boderColor " style="height: 700px;" id="rightSection">
+                <div class="content">
+                    <button  onclick="showLeft()" id="showicon" class="navbar-toggler " ><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+                    
+                    <label id="checkOnline"></label>
+                    <div class="h3 text-white"  >
+                        <label >Salhab Assistant </label>
+                    </div>
+                    <div id="box" >
+                    </div>
+                    <div class=" m-auto  p-3 d-inline bg-light " style="border-radius: 20px;">
+                        <div onclick="startDictation()" class=" d-inline h4 ">
+                            <i class="fas fa-microphone hover "  ></i>
+                        </div>
+                        <input class="m-2 h5" autofocus placeholder="ask me !!" onkeyup="MakeEnter(event)" type="text"  id="inp" autocomplete="off" style="height: 30px;">
+                        <div onclick="enter(1)" class=" d-inline h4" id="Sendbutton" >
+                            <i class="fas fa-chevron-circle-right hover "  ></i>
+                        </div>
+                    </div>
+                    <div id="suggested" class="h5">
+                        <label class="close_suggested" onclick="close_suggested(1)">X</label>
+                        <div id="all_suggested">
+                        <div onclick="choose_suggested(this)">hello</div> 
+                        <div onclick="choose_suggested(this)">hi</div> 
+                        <div onclick="choose_suggested(this)">how are you</div> 
+                        <div onclick="choose_suggested(this)">I am good</div> 
+                        <div onclick="choose_suggested(this)">what is my name</div> 
+                        <div onclick="choose_suggested(this)">what is your name</div> 
+                        <div onclick="choose_suggested(this)">how old are you</div> 
+                        <div onclick="choose_suggested(this)">what is your favorite color</div> 
+                        <div onclick="choose_suggested(this)">black</div> 
+                        <div onclick="choose_suggested(this)">can you help me</div> 
+                        <div onclick="choose_suggested(this)">what are you doing</div> 
+                        <div onclick="choose_suggested(this)">where are you</div> 
+                        <div onclick="choose_suggested(this)">who is the creator of you</div> 
+                        <div onclick="choose_suggested(this)">search Computer science</div> 
+                        <div onclick="choose_suggested(this)">open image</div> 
+                        <div onclick="choose_suggested(this)">calculate 10*20+90</div> 
+                        <div onclick="choose_suggested(this)">listen to music</div> 
+                        <div onclick="choose_suggested(this)">stop music</div> 
+                        <div onclick="choose_suggested(this)">really</div> 
+                        <div onclick="choose_suggested(this)">thank you</div> 
+                        <div onclick="choose_suggested(this)">goodbye</div> 
+                        </div>
+                    </div>
+                    <label id="open_suggested" class="h5" onclick="open_suggested()">open suggested list</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <input type="file" id="image_open"
+    onchange= open_image(this)>
+    <audio id="audio" src="sounds/notification.mp3"></audio>
+    <audio id="audio_5" src="sounds/notification_5.mp3"></audio>
+    <audio id="music" src="sounds/music.mp3"></audio>
+    <script src="/js/main.js"></script>
+</body>
+</html>
