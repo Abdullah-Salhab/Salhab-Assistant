@@ -34,7 +34,7 @@ color: black;
 }
 #box {
     position: relative;
-    height: 79%;
+    height: 80%;
     overflow-y: scroll;
     margin:  0px 10px ;
     padding: 0px 10px;
@@ -79,6 +79,7 @@ color: black;
     height: 65px;
     opacity: 1;
     bottom: 0%;
+    margin-top:2%;
     border-radius: 20px;
     font-size: 1.1em;
     padding: 1% 0%;
