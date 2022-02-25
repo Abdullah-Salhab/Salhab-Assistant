@@ -30,7 +30,7 @@ function choose_suggested(thisdiv) {
 
 }
 function close_suggested(come) {
-    document.getElementById("box").style.height = "79%";
+    document.getElementById("box").style.height = "80%";
     document.getElementById("suggested").style.display = "none";
     if (come == 1) {
         document.getElementById("open_suggested").style.opacity = "1";
@@ -41,7 +41,7 @@ function close_suggested(come) {
     }
 }
 function open_suggested() {
-    document.getElementById("box").style.height = "72%";
+    document.getElementById("box").style.height = "73%";
     document.getElementById("suggested").style.display = "block";
     document.getElementById("open_suggested").style.opacity = "0";
     document.getElementById("open_suggested").style.visibility = "hidden";
