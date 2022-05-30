@@ -12,7 +12,7 @@ function refresh() {
     }, 1500);
 }
 function open_image(This) {
-    document.getElementById('input_image').src = window.URL.createObjectURL(This.files[0]);
+    document.getElementById('input_image'+numOfOpen).src = window.URL.createObjectURL(This.files[0]);
     document.getElementById('input_image').style.display = 'block';
     document.getElementById('Is_open').innerHTML = 'The Image is opend';
     var msg = new SpeechSynthesisUtterance();
